@@ -99,7 +99,7 @@ kubectl patch configmap/config-network \
   --patch '{"data":{"ingress-class":"contour.ingress.networking.knative.dev"}}'
   ```
 
-### Hello From Kubernetes Serverless World
+## Hello From Kubernetes Serverless World
 
 For testing purposes let's do a hello world from the Knative samples. In Knative there's another new resource called Service, not to be mixed up with the Kubernetes resource Service. These Services are used to manage the core Kubernetes resources
 
